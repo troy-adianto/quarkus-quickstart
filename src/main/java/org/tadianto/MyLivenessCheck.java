@@ -9,7 +9,7 @@ public class MyLivenessCheck implements HealthCheck {
 
     @Override
     public HealthCheckResponse call() {
-        return HealthCheckResponse.up("OK");
+        return HealthCheckResponse.up("Alive");
     }
 
 }
